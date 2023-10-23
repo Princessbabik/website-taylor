@@ -1,6 +1,31 @@
 .card {
     background-color: aqua;
     border-color: black;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius:50% ;
+}
+.card :hover{
+    background-color: white;
+    color: black;
+}
+
+/*.html {
+
+    @media only screen and (max-width: 600px) {
+    }
+
+    @media only screen and (min-width:600px) {
+    }
+
+    @media only screen and (min-width:768px) {
+    }
+
+    @media only screen and (min-width:992px) {
+    }
+
+    @media only screen and (min-width:1200px) {
+    }
+
 }
 @media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
@@ -29,4 +54,4 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
- }
+ }*/
