@@ -1,49 +1,16 @@
-.nav-item{
-  color: black;
+body {
+  overflow-x: hidden;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-  position: absolute;
-}
-
-nav{
-  position: fixed;
-}
-
-.TS {
-  font-size: 4vw;
-  text-align: center;
-  color: white;
-  position: absolute;
-  margin-left: 35%;
-  margin-top: 20%;
-}
-
-.won {
-  width: 100%;
-  height: auto;
-  position: absolute; 
-  margin-top: 35%; 
-}
 
 .awards {
   font-size: 3vw;
   text-align: center;
   color: white;
-  position: absolute;
-  margin-left: 5%;
-  margin-top: 45%;
 }
 
-.button{
-  position: absolute; 
-  margin-top: 55%;
-  margin-left: 9%; 
-  border-radius: 10px; 
-  color: brown;
-  width: 150px;
-  height: 40px;
-
+.button {
+  border-radius: 15px;
+  padding: 0px 30px 0px 30px;
+  border: 0;
 }
