@@ -1,32 +1,49 @@
-/* Style the navbar */
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Navbar links */
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
+.nav-item{
+  color: black;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+nav{
+  position: fixed;
+}
+
+.TS {
+  font-size: 4vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+.won {
+  width: 100%;
+  height: auto;
+  position: absolute; 
+  margin-top: 35%; 
+}
+
+.awards {
+  font-size: 3vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 45%;
+}
+
+.button{
+  position: absolute; 
+  margin-top: 55%;
+  margin-left: 9%; 
+  border-radius: 10px; 
+  color: brown;
+  width: 150px;
+  height: 40px;
+
+}
