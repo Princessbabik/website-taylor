@@ -1,7 +1,17 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   overflow-x: hidden;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+}
 
 .awards {
   font-size: 3vw;
