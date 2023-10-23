@@ -1,0 +1,14 @@
+.card {
+    display: inline-block; 
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    background-color: #c093eb;
+    cursor: pointer;
+}
+.card :hover {
+    background-color: #a881ce;
+    transition: 0.5px;
+}
