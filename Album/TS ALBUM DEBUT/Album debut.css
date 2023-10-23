@@ -2,18 +2,17 @@
     background-color: #000000;
     border-color: black;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 65px;
     box-shadow: 5px 5px 15px black;
     cursor: pointer;
-    display: inline-block; margin-right: 30px;
+    display: inline-block; margin-right: 50px;
 }
 .card:hover{
     background-color: rgb(97, 207, 165);
     color: rgb(7, 7, 7);
     transition: 0.5s;
 }
-
-.html {
+.body {
 
     @media only screen and (max-width: 600px) {
     }   
@@ -31,6 +30,7 @@
     }
 
 }
+
 /*@media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
