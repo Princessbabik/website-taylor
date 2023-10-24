@@ -24,6 +24,7 @@
         flex-direction: column;
         justify-content: space-between;
     }
+}
     #formkomentar {
         border: 5px solid #d1d1d1; width: 500px; padding: 10px; height: 300px;
     }
@@ -59,43 +60,66 @@
         <div class="card">
                     <div class="card-body-lg-12-sm-12">
                          <form id="formkomentar">
-                                <div><input type="text" name="nama" placeholder="Nama"/></div>
-                                <div><input type="text" name="email" placeholder="Email"></div>
-                                <div><input type="text" name="Name Song" placeholder="Name Song"></div>
-                                <div><textarea name="komentar" placeholder="komentar"></textarea></div>
-                                <input type="checkbox" id="fansA" name="FANS" value="Notfans"> Not Fans
-                                <input type="checkbox" id="fansB" name="FANS" value="Fans"> Fans
-                                <input type="checkbox" id="fansC" name="FANS" value="Swiftie"> Swiftie
+                                <div><input type="text" name="name" placeholder="Name"/></div>
+                                <div><input type="password" name="Secret" placeholder="Tell Ur Secret About Taylor Swift"></div>
+                                <div><input type="text" name="Email" placeholder="Give me you're Email"></div>
+                                <div><textarea name="komentar" placeholder="Comment"></textarea></div>
+                                <p>What Kind Of you??</p>
+                                <input type="radio" id="fansA" name="FANS" value="Notfans"> Not Fans
+                                <input type="radio" id="fansB" name="FANS" value="Fans"> Fans
+                                <input type="radio" id="fansC" name="FANS" value="Swiftie"> Swiftie
                                 <div><input type="submit" value="Tambahkan Komentar"/></div>
                         </form>     
                     </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body-lg-12-sm-12">
-                     <form id="formkomentar">
-                        <form>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">HTML</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="html">CSS</label><br>
-                        <input type="radio" id="Javascript" name="fav_language" value="Javascript">
-                        <label for="html">Javascript</label><br>
-                        <p>THIS IS SELECT</p>
-                        <form>
-                            <label for="cars"> Choose A Car</label>
-                            <select name="cars" id="cars" multiple>
-                                <option value="volvo">Volvo</option>
-                                <option value="fiat">Fiat</option>
-                                <option value="audi">Audi</option>
-                                <option value="fiat">Fiat</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                        </form>  
-                    </form>   
-                </div>
+        <div class="card">
+            <div class="card-body-lg-12-sm-12">
+                <form id="formkomentar">
+                        <p>Select You're Fav Album : </p>
+                        <input type="checkbox" id="Debut" name="fav_language" value="Debut">
+                        <label for="html">Album Debut</label>
+                        <input type="checkbox" id="Fearless" name="fav_language" value="Fearless">
+                        <label for="html">Album Fearless</label>
+                        <input type="checkbox" id="Speak Now" name="fav_language" value="Speak Now">
+                        <label for="html">Album Speak Now</label>
+                        <input type="checkbox" id="Red" name="fav_language" value="Red">
+                        <label for="html">Album Red</label>
+                        <input type="checkbox" id="1989" name="fav_language" value="1989">
+                        <label for="html">Album 1989/label>
+                        <input type="checkbox" id="Reputation" name="fav_language" value="Reputation">
+                        <label for="html">Album reputation</label>
+                        <input type="checkbox" id="Lover" name="fav_language" value="Lover">
+                        <label for="html">Album Lover</label>
+                        <input type="checkbox" id="folklore" name="fav_language" value="folklore">
+                        <label for="html">Album Folklore</label>
+                        <input type="checkbox" id="Evermore" name="fav_language" value="Evermore">
+                        <label for="html">Album Evermore</label>
+                        <input type="checkbox" id="Midnight" name="fav_language" value="Midnight">
+                        <label for="html">Album Midnight</label>
+                        <br>
+
+                        <label for="Song Album">Choose 1 Song : </label>
+                        <select id="Song Album" name="Song Album"> multiple
+                            <optgroup label="Album Debut Song's"selected>
+                            <option value="Piture To Burn">Picture To Burn</option>
+                            <option value="Our Song">Our Song</option>
+                            <option value="Should've Break Up">Shoul've Break Up</option>
+                            <option value="Tim McGraw">Tim McGraw</option>
+                            <option value="The Outside">The Outside</option>
+                            <option value="Stay Beautiful">Stay Beautiful </option>
+                            </optgroup>
+                            <optgroup label="Album Fearless Song's">
+                            <option value="Fearless">Fearless</option>
+                            <option value="Hey Stephen">Hey Stephen</option>
+                            <option value="Breathe">Breathe</option>
+                            </optgroup>
+                        </select> <br/><br/>
+                        <p>How much do you love taylor Swift?</p>
+                        <input type="range" name="myRange" id="myRange" value="10"/>
+                </form>   
             </div>
         </div>
-    </body>
+</body>
 </html>
