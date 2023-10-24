@@ -2,88 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    footer {
-        background-color: blueviolet;
-        color: black;
-    }
-    .container {
-        min-height: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    #formkomentar {
-        border: 5px solid #d1d1d1; width: 500px; padding: 10px; height: 300px;
-    }
-    input, textarea {
-        padding: 10px; border: 3px solid #e6e6e6; border-radius: 5px; margin-bottom: 15px;
-    }
-    input:focus, textarea:focus {
-        border: 3px solid #5E4F4F;
-    }
-    textarea{
-        width: 300px;
-    }
-    input[type="submit"] {
-        cursor: pointer; background: -webkit-linear-gradient(top, #efefef, #ddd);
-        background: -moz-linear-gradient(top, #efefef, #ddd); background: -moz-linear-gradient(top, #efefef, #ddd); 
-        background: -o-linear-gradient(top, #efefef, #ddd); background: linear-gradient(top, #efefef, #ddd); color: #333;
-        text-shadow: 0px 1px 1px rgba(255, 255, 255, 1); border: 1px solid #ccc;
-    }
-    input[type="submit"]:hover {
-        background: -webkit-linear-gradient(top, #eee, #ccc);
-        background: -moz-linear-gradient(top, #eee, #ccc); background: -moz-linear-gradient(top, #eee, #ccc);
-        background: -o-linear-gradient(top, #eee, #ccc); background: linear-gradient(top, #eee, #ccc); border: 1px solid #bbb;
-    }
-</style>
+    <title>Footer</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-    <div>
-        <header>
-            1
-        </header>
-        <main>
-            2
-        </main>
-    </div>
-    <footer>
-<div class="card">
-            <div class="card-header">
-                aing maung 
-                </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </blockquote>
-                    </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                aing maung 
-                </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                            <form id="formkomentar">
-                                <div><input type="text" name="nama" placeholder="Nama"/></div>
-                                <div><input type="text" name="email" placeholder="Email"></div>
-                                <div><input type="text" name="Name Song" placeholder="Name Song"></div>
-                                <div><textarea name="komentar" rows="10" placeholder="komentar"></textarea></div>
-                                <div><input type="submit" value="Tambahkan Komentar"/></div>
-                            </form>     
 
-                        </blockquote>
-                    </div>
-                </div>
-            </footer>
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Dictionary</h3>
+            <ul>
+                <li> <h5><a href="/WebsiteTaylorswift/index/index.html">Home</a></h5> </li>
+                <li> <h5><a href="/WebsiteTaylorswift/index/about.html">About Taylor Swift</a></h5> </li>
+                <li> <h5><a href="/merch.html/merch.html">Merch</a></h5> </li>
+                <li> <h5><a href="/WebsiteTaylorswift/index/form.html">QNA</a></h5></li>
+            </ul>
+
+            <p class="footer-copyright">2023 </p>
+
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Indonesia</span> Jawa Barat, Bekasi</p>
             </div>
-            
-        </body>
-        </html>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 0700-000-000</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-about">
+                <span>About</span>
+                <p><h5> you can give us some support or anything in the link that we give in the QNA or in the social media that we have </h5></p>
+            </p>
+
+            <div class="footer-media">
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
