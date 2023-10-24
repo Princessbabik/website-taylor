@@ -1,3 +1,31 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.awards {
+  font-size: 3vw;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 0px 30px 0px 30px;
+  border: 0;
+}
+
 .card {
     background-color: #000000;
     border-color: black;
@@ -12,24 +40,7 @@
     color: rgb(7, 7, 7);
     transition: 0.5s;
 }
-.body {
 
-    @media only screen and (max-width: 600px) {
-    }   
-
-    @media only screen and (min-width:600px) {
-    }
-
-    @media only screen and (min-width:768px) {
-    }
-
-    @media only screen and (min-width:992px) {
-    }
-
-    @media only screen and (min-width:1200px) {
-    }
-
-}
 
 /*@media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
