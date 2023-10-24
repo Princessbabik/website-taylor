@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    .card{
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+    }
+    #formkomentar {
+        border: 20px solid #ffffff; width: 500px; padding: 30px 70px 30px 70px; height: 350px; text-align: center;
+    }
+    input, textarea {
+        padding: 10px; border: 3px solid #ffffff; border-radius: 5px; margin-bottom: 15px;
+    }
+    input:focus, textarea:focus {
+        border: 3px solid #bd8b8b;
+    }
+    textarea{
+        width: 300px;
+    }
+    input[type="submit"] {
+        cursor: pointer; background: -webkit-linear-gradient(top, #beaaaa, #a266c5);
+        background: -moz-linear-gradient(top, #5f4b4b, #ffffff); background: -moz-linear-gradient(top, #efefef, #ddd); 
+        background: -o-linear-gradient(top, #efefef, #ddd); background: linear-gradient(top, #efefef, #ddd); color: #333;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 1); border: 1px solid #ccc;
+    }
+    input[type="submit"]:hover {
+        background: -webkit-linear-gradient(top, #eee, #ccc);
+        background: -moz-linear-gradient(top, #eee, #ccc); background: -moz-linear-gradient(top, #eee, #ccc);
+        background: -o-linear-gradient(top, #eee, #ccc); background: linear-gradient(top, #eee, #ccc); border: 1px solid #bbb;
+    }
+</style>
+</head>
+<body style="background-color: #a266c5;">
+        <div class="card">
+                    <div class="card-body-lg-12-sm-12">
+                         <form id="formkomentar">
+                                <div><input type="text" name="nama" placeholder="Nama"/></div>
+                                <div><input type="text" name="email" placeholder="Email"></div>
+                                <div><input type="text" name="Name Song" placeholder="Name Song"></div>
+                                <div><textarea name="komentar" placeholder="komentar"></textarea></div>
+                                <input type="checkbox" id="fansA" name="FANS" value="Notfans"> Not Fans
+                                <input type="checkbox" id="fansB" name="FANS" value="Fans"> Fans
+                                <input type="checkbox" id="fansC" name="FANS" value="Swiftie"> Swiftie
+                                <div><input type="submit" value="Tambahkan Komentar"/></div>
+                        </form>     
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body-lg-12-sm-12">
+                     <form id="formkomentar">
+                        <form>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="html">CSS</label><br>
+                        <input type="radio" id="Javascript" name="fav_language" value="Javascript">
+                        <label for="html">Javascript</label><br>
+                        <p>THIS IS SELECT</p>
+                        <form>
+                            <label for="cars"> Choose A Car</label>
+                            <select name="cars" id="cars" multiple>
+                                <option value="volvo">Volvo</option>
+                                <option value="fiat">Fiat</option>
+                                <option value="audi">Audi</option>
+                                <option value="fiat">Fiat</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </form>  
+                    </form>   
+                </div>
+            </div>
+        </div>
+        
+            
+        </body>
+        </html>
