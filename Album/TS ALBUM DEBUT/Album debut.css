@@ -30,10 +30,11 @@ body {
     background-color: #ffffff;
     border-color: black;
     margin-left: 60px;
-    margin-top: 65px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     box-shadow: 5px 5px 15px black;
     cursor: pointer;
-    display: inline-block; margin-right: 100px;
+    display: inline-block; margin-right: 50px;
 }
 .card:hover{
     background-color: rgb(97, 207, 165);
